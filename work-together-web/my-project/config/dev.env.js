@@ -1,0 +1,45 @@
+var merge = require('webpack-merge')
+var prodEnv = require('./prod.env')
+
+module.exports = merge(prodEnv, {
+  NODE_ENV: '"development"',/*
+  HOST_URL: "http://
+  PAGE_SHOW_COUNT: 10,
+  UPLOAD_HOST_URL: "http://10.8.210.244:8080/v1",
+  CPS_HOST_URL: "http://10.8.210.244:8080/v1",*/
+  // HOST_URL: "http://test.work.kuaifazs.com/v1",
+  HOST_URL: "http://10.8.210.223:8080/v1",
+  DELETE_PERSONNEL_HOST_URL: "http://work.kuaifazs.com",
+  // HOST_URL: "http://10.8.220.6:8080/v1",
+  // HOST_URL: "http://10.8.220.130:8080/v1",
+// HOST_URL: "http://10.8.240.97:8080/v1",
+  // HOST_URL: "http://10.8.220.89:8080/v1",
+  // HOST_URL: "http://10.8.210.235:8080/v1",
+  // HOST_URL: "http://10.8.220.132:8082/v1",
+  // HOST_URL: "http://10.8.220.130:8080/v1",
+  // HOST_URL: "http://work.kuaifazs.com/v1",
+  PAGE_SHOW_COUNT: 15,
+  UPLOAD_HOST_URL: "http://test.work.kuaifazs.com/v1",
+  // UPLOAD_HOST_URL: "http://10.8.210.244:8081/v1",
+  // UPLOAD_HOST_URL: "http://10.8.240.97:8080/v1",
+  // UPLOAD_HOST_URL: "http://10.8.220.6:8080/v1",
+  // PERSONNEL_HOST_URL: "http://10.8.220.6:8080",
+  PERSONNEL_HOST_URL: "http://test.cps.shouyouquan.com",
+  // UPLOAD_HOST_URL: "http://10.8.220.89:8080/v1",
+  // UPLOAD_HOST_URL: "http://10.8.210.235:8080/v1",
+  // UPLOAD_HOST_URL: "http://10.8.220.132:8081/v1",
+  // UPLOAD_HOST_URL: "http://work.kuaifazs.com/v1",
+  // CPS_HOST_URL: "http://10.8.220.89:8080/v1",
+  // CPS_HOST_URL: "http://10.8.210.244:8080/v1",
+  // CPS_HOST_URL: "http://test.cps.shouyouquan.com/v1",
+  CPS_HOST_URL: "http://10.8.220.130:8081/v1",
+  // CPS_HOST_URL: "http://10.8.220.132:8080/v1",
+  // CPS_HOST_URL: "http://work.kuaifazs.com/v1",
+  // DASHBOARC_HOST_URL: "http://10.8.220.132:8080/v1",
+  DASHBOARC_HOST_URL: "http://sy.shouyouquan.com/v1",
+  // SMALL_SHEEP_HOST_URL: "http://manage.task.bandaimi.com/v1/",
+  SMALL_SHEEP_HOST_URL: "http://10.8.220.6:8089/v1/",
+  // SMALL_SHEEP_HOST_URL: "http://10.8.220.132:8089/v1/",
+  // SMALL_SHEEP_HOST_URL: "http://10.8.220.130:8089/v1/",
+  RUNRUN_ON: '"dev"',
+})

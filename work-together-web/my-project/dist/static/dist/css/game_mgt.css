@@ -1,0 +1,88 @@
+
+.table {
+    width: 95%;
+    max-width: 95%;
+    margin-bottom: 20px;
+    margin: auto;
+    text-align: center;
+}
+.table>thead>tr>th{
+	border-bottom: 1px solid #acacac;
+}
+.table>thead>tr{
+	border:1px solid #acacac;
+}
+.table>thead:first-child>tr:first-child{
+	border-top:1px  solid #acacac;
+	background: rgba(0, 0, 0, 0.2);
+}
+.table>tbody>tr{
+	border: 1px solid #acacac;
+}
+th{
+	text-align: center;
+}
+#edit_h{
+	margin-left: 30px;
+}
+#edit_h>div{
+	margin-left: 110px;
+	margin-bottom: 30px;
+}
+.form-control {
+     display:initial;
+    width: 277px;
+    margin-left: 4%;
+    }
+.charge>.form-control{
+	margin-left: 3%;
+}
+.situation>.form-control{
+	margin-left: 2%;
+}
+.Whether>.form-control{
+	    margin-left: 7.8%;
+	    display: none;
+}
+.Whether>p>input:first-child{
+	margin-left: 4%;
+}
+#Operate>p>input:first-child{
+	margin-left: 5%;
+}
+.Whether>p>input:last-child,#Operate>p>input:last-child{
+	margin-left: 1%;
+}
+.Whether{
+	margin-top: -107px;
+}
+#edit_h>#btn_dv{
+	    width: 17%;
+    margin-left: 14%;
+}
+#edit_h>#btn_dv>p>button{
+	width: 39%;
+}
+#edit_h>#btn_dv>p>.btn_B{
+	    margin-right: 20%;
+}
+#edit_h>#Situation>p{
+	margin-bottom: 30px;
+}
+.main-footer {
+    z-index: 823;
+    position: relative;
+}
+#jedate_E{
+	position: absolute;top: 158px;
+	left: 43px;
+	width: 66%;
+}
+#jedate_E .datep{
+	width: 100%;
+}
+#jedate_E .datep>input{
+	  margin-top: 0px;
+	  height: 35px;
+	      margin-right: 3.5%;
+}

@@ -1,0 +1,34 @@
+#edit_h{
+	margin-left: 30px;
+}
+#edit_h>div{
+	margin-left: 110px;
+	margin-bottom: 30px;
+}
+.form-control {
+     display:initial; 
+    width: 277px;
+    margin-left: 4%;
+    }
+.situation>.form-control:first-child{
+	margin-left: 6.5%;
+}
+.Whether{
+	margin-top: -107px;
+}
+#edit_h>#btn_dv{
+	    width: 17%;
+    margin-left: 16.5%;
+}
+#edit_h>#btn_dv>p>button{
+	width: 39%;
+}
+#edit_h>#btn_dv>p>.btn_B{
+	    margin-right: 20%;
+}
+#edit_h>#Situation>p{
+	margin-bottom: 30px;
+}
+.form-group>textarea{
+	margin-left: 7.5%;
+}

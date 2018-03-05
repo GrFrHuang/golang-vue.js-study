@@ -1,0 +1,74 @@
+.flow_list{
+	position: absolute;
+    top: 0;
+    min-height: 89%;
+    width: 88%;
+    margin-left: 230px;
+    margin-top: 50px;
+}
+.flow_list_d{
+	padding-left: 60px;
+    padding-right: 0;
+    padding-top: 30px;
+}
+.flow_list_i{
+	padding-top: 30px;
+}
+.datainp{margin: 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    border: none;
+    width: 70%;
+    box-sizing: border-box;
+    padding: 8px;
+    padding-right: 60px;
+    border-radius: 3px;
+    border: 1px #ccc solid;
+    }
+.datep{
+	margin-bottom: 55px;
+    margin-top: 10px;
+	 }
+ .datep1{
+margin-top: 10px;
+ }
+
+._list_tab_btn{
+	float: right;
+	margin-right: 10%;
+}
+.table {
+    width: 95%;
+    max-width: 95%;
+    margin-bottom: 20px;
+    margin: auto;
+    text-align: center;
+}
+.table>thead>tr>th{
+	border-bottom: 1px solid #acacac;
+}
+.table>thead>tr{
+	border:1px solid #acacac;
+}
+.table>thead:first-child>tr:first-child{
+	border-top:1px  solid #acacac;
+	background: rgba(0, 0, 0, 0.2);
+}
+.table>tbody>tr{
+	border: 1px solid #acacac;
+}
+#show>tbody:nth-child(n+3)>tr>td:nth-child(4){
+	border-top:0;
+}
+#show>tbody:nth-child(2)>tr>td:last-child{
+	color: red;
+}
+#show1>tbody:nth-child(2)>tr>td:last-child{
+	color: red;
+}
+th{
+	text-align: center;
+}
+.sidebar-menu>li:first-child>.treeview-menu>li:first-child>a{
+	color: white;
+}
